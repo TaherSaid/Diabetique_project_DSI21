@@ -1,0 +1,18 @@
+{
+    "section_1":{"titre":"What's Diabetes",
+                "image":"banner_img.png",
+                "description":"Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. Insulin is a hormone that helps the glucose get into your cells to give them energy."},
+    "section_2":{"titre":"About us",
+                "image":"top_service.png",
+                "description":"we a group of student we develop this platform to help diabet personne and normal person to check if they are diabet or not with qcm and value measuring"},
+    "our_service":{
+        "num_1":{"titre":"quick test",
+                "description":"we have a solution that can help people to checkthe chance if they can be a diabetic or not by passing qcm test."},
+        "num_2":{"titre":"check measure value",
+                "description":"we can tell you if the measured value is dangerous or normal measure ."},
+        "num_3":{"titre":"interaction between doctor and patient",
+                "description":"we found a solotions between the doctor and patient for interaction between them by visualizing measured value of the patient evry day and the doctor advice."},
+        "num_4":{"titre":"communication",
+                "description":"communication between patient and doctor or between patient by posting article and advice to support each other and they don't feel different."}
+    }
+}
