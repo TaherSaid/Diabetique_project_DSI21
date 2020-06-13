@@ -1,0 +1,83 @@
+.associationContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.associationContainer img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #12013613;
+    border-radius: 10%;
+}
+#profilepic{
+    width: 30%;
+    height: 150px;
+}
+
+#camera{
+    width: 25px;
+    height: 21px;
+}
+
+.row1{
+    display: grid;
+    justify-items: center;
+}
+#username{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+#role , #gouvernorat{
+    font-size: 18px;
+}
+#role{
+    color: #FEA809;
+    margin: 0;
+}
+#gouvernorat{
+    color: #969697;
+    display: inline;
+}
+#location{
+    width: 16px;
+    height: 25px;
+}
+.camButton{
+    width: 45px;
+    height: 45px;
+    background-color: rgba(150, 150, 151, 0.2);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.mobile{
+    display: none;
+}
+.desktop{
+    display: inline;
+}
+@media (max-width : 767px){
+    .associationContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mobile{
+        display: initial;
+    }
+    .desktop{
+        display: none;
+    }
+}
+@media (max-width : 400px){
+    .associationContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
